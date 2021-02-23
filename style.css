@@ -61,6 +61,7 @@ a {
 
 .header img {
   width: 30vw;
+  display: static;
 }
 
 .section {
@@ -81,6 +82,10 @@ a {
   width: 100vw;
   /* margin-top: 5vh; */
   padding-bottom: 10vh;
+}
+
+.beigeSection p {
+  text-align: center;
 }
 
 .section h1 {
