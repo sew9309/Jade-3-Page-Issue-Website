@@ -1,0 +1,91 @@
+.pageContainer {
+  background-color: #F5EEE4;
+}
+
+h1 {
+  font-family: 'Philosopher', sans-serif;
+  color: #649DA2;
+}
+
+#navbar {
+  display: inline-block;
+  background-color: #F5EEE4;
+  position: sticky;
+  width: 100vw;
+  height: 10vh;
+}
+
+.navbar a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Philosopher', sans-serif;
+  color: #649DA2;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Philosopher', sans-serif;
+  color: #649DA2;
+  font-size: 25px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.jadeicon {
+  display: inline-block;
+  height: 10vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.searchBar {
+  background-color: white;
+  display: inline-block;
+  width: 50vw;
+  height: 5vh;
+  border-radius: 10px;
+}
+
+.header {
+  background-color: #F5EEE4;
+  text-align: center;
+  display: inline-block;
+  width: 100vw;
+  margin-top: 5vh;
+  padding-bottom: 10vh;
+
+}
+
+.header img {
+  width: 30vw;
+}
+
+.section {
+  background-color: #649DA2;
+  color: #F5EEE4;
+  text-align: center;
+  display: inline-block;
+  width: 100vw;
+  margin-top: 5vh;
+  padding-bottom: 10vh;
+}
+
+.shopStores {
+  text-align: center;
+}
+.store {
+  width: 20vw;
+  position: relative;
+  height: 40vh;
+  background-color: white;
+  border-radius: 10px;
+  margin: 1vw 1vw 1vw 1vw;
+  display: inline-block;
+}
+
+.previewImg {
+  position: inherit;
+  width: 100%;
+}
