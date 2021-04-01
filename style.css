@@ -1,5 +1,6 @@
 .pageContainer {
   background-color: #F5EEE4;
+  margin: 20px 20px 20px 20px;
 }
 
 .header h1 {
@@ -12,9 +13,10 @@
 #navbar {
   display: flex;
   background-color: #F5EEE4;
-  position: sticky;
+  position: fixed;
   width: 100vw;
   height: 10vh;
+  margin-top: -5vh;
 }
 
 .navbar a {
@@ -62,6 +64,8 @@ a {
   width: 100vw;
   margin-top: 5vh;
   padding-bottom: 10vh;
+  padding-top: 50px;
+
 
 }
 
@@ -83,23 +87,31 @@ a {
 .beigeSection {
   background-color: #F5EEE4;
   color: #649DA2;
-  text-align: center;
+  /* text-align: center; */
   display: flex;
   flex-wrap: wrap;
-  width: 100vw;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: center;
+
+
+  /* margin-left: 100vw; */
+
+  /* width: 100vw; */
   /* margin-top: 5vh; */
-  padding-bottom: 10vh;
+  /* padding-bottom: 10vh; */
 }
 
 .beigeSection p {
-  text-align: center;
+  text-align: left;
 }
 
 .section h1 {
-  margin-top: 10vh;
-  margin-bottom: 5vh;
+  /* margin-top: 10vh;
+  margin-bottom: 5vh; */
   color: #F5EEE4;
-  text-align: center;
+  /* text-align: center; */
   font-family: 'Philosopher', sans-serif;
 }
 
@@ -111,9 +123,10 @@ h2 {
 .shopStores {
   text-align: center;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
 .store {
   /* width: 20vw; */
   min-width: 5vw;
@@ -129,7 +142,7 @@ h2 {
     align-items: center;
     overflow: hidden;
     padding-left: 5vw;
-    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .store img {
@@ -158,16 +171,21 @@ h2 {
 
 .column {
   width: 50%;
-  display: inline-block;
-  margin-left: 5vw;
-  margin-right: 5vw;
+display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  /* margin-left: 5vw;
+  margin-right: 5vw; */
+  /* flex-direction: row; */
 }
 
 .column img {
   object-fit: fill;
-  width: 100%;
-  margin-left: -2vw;
-  margin-right: -2vw;
+  width: 50%;
+  /* margin-left: -2vw;
+  margin-right: -2vw; */
 }
 
 p {
@@ -243,6 +261,7 @@ body {
 .tabs {
   display: flex;
   flex-wrap: wrap;
+  width: 20%;
   margin-top: 3vh;
-  justify-content: flex-end;
+  justify-content: space-around;
 }
